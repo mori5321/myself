@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 
-const CenteredText = styled.p`
+const CenteredText = styled.div`
   text-align: center;
   margin-bottom: 5px;
 `

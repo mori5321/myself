@@ -2,7 +2,7 @@ import * as React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Top from "@/pages/Top";
-import Iam from "@/pages/Iam";
+import Career from "@/pages/Career";
 import Skill from "@/pages/Skill";
 
 import Container from '@/layouts/Container';
@@ -17,7 +17,7 @@ const Routes: React.SFC = () => {
           <Header />
         </Container>
         <Route exact path="/" component={Top} />
-        <Route path="/iam" component={Iam} />
+        <Route path="/career" component={Career} />
         <Route path="/skill" component={Skill} />
       </div>
     </Router>
