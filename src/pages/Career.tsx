@@ -5,7 +5,7 @@ import colors from '@/utils/colors';
 import styled from 'styled-components';
 
 import CenteredText from '@/atomics/CenteredText';
-import { Heading1 } from '@/components/Heading1';
+import { Heading1 } from '@/components/Heading';
 
 class Iam extends React.Component {
   public render() {

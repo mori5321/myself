@@ -9,7 +9,7 @@ import styled from 'styled-components';
 export default class Header extends React.Component {
   public render() {
     return(
-      <Container backgroundColor={colors.white} color={colors.black}>
+      <Container color={colors.black}>
         <Container style={{ padding: "25px 0"}}>
           <CenteredText>
             <AvatarImage src="assets/images/selfee.jpg" height="60" width="60" />
@@ -37,9 +37,4 @@ const AvatarImage = styled.img`
   border-radius: 50%;
   object-fit: scale-down;
   margin: 0 auto;
-`
-
-const Content = styled.div`
-  min-height: 100vh;
-  background-color: ${colors.primary}
 `
